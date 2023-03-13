@@ -1,0 +1,19 @@
+body{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+nav {
+    float:left;
+    background-color: black;
+    color:white;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+footer{
+    background-color: blue;
+    color:white;
+}
