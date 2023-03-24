@@ -270,115 +270,6 @@ h4{
     float:left;
 }
 
-.verti1 {
-    writing-mode: vertical-lr;
-    text-orientation: mixed;
-    font-size: 1.15em;
-    padding-top:25px;
-    float: left;
-    text-align:center;
-}
-
-.verti2 {
-    writing-mode:vertical-lr;
-    text-orientation: mixed;
-    font-size: 1.15em;
-    padding-top:25px;
-    float: right;
-    text-align:center;
-    color: #588157;
-}
-
-#info img{
-    float:left;
-    height:100%;
-    width:auto;
-    padding:5px;
-    border-radius: 15px;
-}
-
-#secondinfo img{
-    float:right;
-    height:100%;
-    width:auto;
-    padding:13px;
-    border-radius: 25px;
-}
-
-.infosections h3{
-    font-size: 2em;
-    padding-left:15px;
-    float:left;
-}
-
-.infosections p{
-    font-size: 1em;
-    padding-left:15px;
-    float:left;
-    width:auto;
-}
-
-#secondinfo{
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    column-gap: 2em;
-    row-gap: 2em;
-    margin-left: 2em;
-    margin-right:7em;
-    height:22em;
-    /* padding-bottom: 1em; */
-    padding-bottom: 2em;
-}
-
-/* #secondinfo .underinfo img{
-    float:right;
-    height:100%;
-    width:auto;
-    padding:20px;
-    border-radius: 15px;
-} */
-
-#secondinfo .underinfo{
-    background-color: #e8ffec;
-    border-radius: 10px;
-    color:#3a563f;
-    box-shadow: 5px 10px #5D8AA8;
-    padding-bottom: 2em;
-}
-
-.underinfo p{
-    font-size: 1em;
-    padding-left:25px;
-    float:left;
-    /* width:auto; */
-}
-
-.underinfo h3{
-    font-size: 2em;
-    padding-left:25px;
-    color:#588157;
-    float:left;
-    width:auto;
-}
-
-#info .infoheader {
-    border-radius: 10px;
-    background-color: #588157;
-    padding:10px;
-    color:#e8ffec;
-    text-align: center;
-    font-size: 0.75em;
-    font-weight:900;
-    text-transform:uppercase;
-    box-shadow: 5px 10px #5D8AA8 ;
-}
-
-#info h2{
-    color:#8fc0a9;
-    font-weight: bolder;
-    font-size: 2.5em;
-}
 
 .flowerhero{
     height: 155px;
@@ -442,5 +333,7 @@ h4{
     font-size: 15px;
     padding:10px;
   }
+
+
 
 /* media */
