@@ -33,7 +33,7 @@ main {
     display: block;
     /* padding-bottom: 15em; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
 }
 
 main h2{
@@ -97,7 +97,7 @@ footer {
     padding-bottom: 0.5em;
     padding-right: 3em;
     padding-left: 3em;
-    text-align: center;
+    text-align: right;
     overflow: auto;
     box-shadow: 5px 10px #5D8AA8;
 }
@@ -265,6 +265,27 @@ nav #herologo {
     color:#588157;
     box-shadow: 5px 10px #5D8AA8 ;
 }
+
+
+#projects {
+    display:grid;
+    grid-template-columns: 20% 30% 30% 20%;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 2.5em;
+    column-gap: 2.5em;
+    margin-left: 3.5em;
+    margin-right: 9.5em;
+}
+
+#projects .parts {
+    background-color: #7BAFD4;
+    border-radius: 10px;
+    box-shadow: 5px 10px #294F6B;
+    /* padding-left: 1em; */
+    margin-left:
+    height:auto;
+}
+
 h4{
     width:auto;
     float:left;
