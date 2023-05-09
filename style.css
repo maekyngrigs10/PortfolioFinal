@@ -18,6 +18,7 @@ header {
     border-radius: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-shadow: 5px 10px #5D8AA8 ;
+    
 }
 
 h2 {
@@ -54,6 +55,7 @@ nav {
     padding-right: 3em;
     padding-left: 3em;
     box-shadow: 5px 10px #5D8AA8 ;
+    border: 5px solid #7BAFD4;
 }
 
 nav img{
@@ -100,6 +102,7 @@ footer {
     text-align: right;
     overflow: auto;
     box-shadow: 5px 10px #5D8AA8;
+    border: 5px solid #AFDBF5;
 }
 
 footer p {
@@ -355,6 +358,200 @@ h4{
     padding:10px;
   }
 
+/*Contact form*/
+
+#cntme {
+    margin-left: 2.5em;
+    display:grid;
+    grid-template-columns: 50% 20% 30%;
+    column-gap: 5em;
+    grid-template-rows: 50% 50%;
+    row-gap: 1em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+}
+
+.table {
+    grid-column: 2/span 2;
+    row-gap: 1em;
+    grid-row: 1/span 1;
+    column-gap: 1em;
+    background-color: #7BAFD4;
+    margin-right: 13.5em;
+    border-radius: 15px ;
+    border: 5px solid #AFDBF5;
+    box-shadow: 10px 10px #294F6B;
+    text-align:center;
+}
+
+.table h1 {
+    color:#294F6B;
+}
+
+.table table {
+    background-color: #AFDBF5;
+    width: 90%;
+    height:10em;
+    margin-left:2em;
+    padding-right: 1em;
+    margin-bottom: 4em;
+    border-radius: 15px;
+    border-collapse: collapse;
+    color:#294F6B;
+}
+
+tr:nth-child(even) {
+    background-color: #7BAFD4;
+  }
+
+th,td {
+    border: 1px solid #294F6B;
+    width:100%;
+}
+
+.cards {
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #7BAFD4;
+    border-radius: 10px;
+    grid-column: 1/span 1;
+    grid-row: 1/span 2;
+    width: 100%;
+    border: 6px solid #5D8AA8;
+    box-shadow: 20px 20px 0 #294F6B;
+    border-radius: 50px;
+    position: relative;
+    border: 5px solid #AFDBF5;
+    margin-right: 15em;
+  }
+  
+  .cards h2 {
+    color:#294F6B;
+    font-size: 60px;
+    text-transform: uppercase;
+  }
+  
+  .cards .row {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid: auto / auto auto;
+    grid-template-columns: repeat(auto-fit,minmax(40%, 1fr));
+    grid-gap: 30px;
+  }
+  
+  .cards .row .col {
+    position: relative;
+    width: 100%;
+    margin: 30px 20px 40px 0;
+    transition: 0.5s;
+  }
+  
+  .cards .row .form-group {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color: #294F6B;
+  }
+  
+  .cards .row .form-group input,
+  .cards .row .form-group textarea {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    font-size: 24px;
+    padding: 10px 0 10px 20px;
+    border: 5px solid #AFDBF5;
+    box-shadow: 10px 10px 0 #294F6B;
+    color: #294F6B;
+    border-radius: 50px;
+  }
+  
+  .cards .row .form-group label {
+    line-height: 40px;
+    color: #294F6B;
+    font-size: 24px;
+    margin: 0 0 0 30px;
+    display: block;
+    pointer-events: none;
+  }
+  
+  .row .col:nth-child(6) {
+    margin-top: 64px;
+  }
+  
+  .cards .row .form-group input:focus,
+  .cards .row .form-group textarea:focus {
+        border: 5px solid #AFDBF5;
+        transition: all 0.5s;
+  }
+  
+  .cards .row input[type="submit"] {
+    border: 5px solid #AFDBF5;
+    box-shadow: 10px 10px 0 #294F6B;
+    padding: 10px;
+    height: 100%;
+    width: 50%;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+    text-transform: uppercase;
+    color: #294F6B;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 45px;
+    transition: all 0.4s;
+  }
+  
+  .cards .row input[type="submit"]:hover {
+    border: 5px solid #AFDBF5;
+    color: #294F6B;
+    transition: all 0.4s;
+  }
+
+  .contact {
+    color:#ffffff;
+    /* padding-left: 3em; */
+    text-align: center;
+    font-size: x-large;
+  }
+
+/* end of contact form start of just contact page */
+
+.github {
+    background-image: url(img/github.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #7BAFD4;
+    border-radius: 10px;
+    border: 5px solid #AFDBF5;
+    box-shadow: 10px 10px #294F6B;
+    width:80%;
+    /* padding-right: 2em; */
+    align-content: center;
+    /* grid-column: 2/span 1;
+    grid-row: 2/span 1; */
+}
+
+.linkedin {
+    /* background-image: url(img/linkedin.png);
+    background-repeat: no-repeat; */
+    /* background-size: contain; */
+    background-color: #7BAFD4;
+    border-radius: 10px;
+    border: 5px solid #AFDBF5;
+    box-shadow: 10px 10px #294F6B;
+    width:55%;
+    /* margin-right:15em; */
+    /* padding-right: 2em; */
+    align-content: center;
+    /* margin-right:15em; */
+    /* grid-column: 3/span 1;
+    grid-row: 2/span 1; */
+}
 
 
 /* media */
