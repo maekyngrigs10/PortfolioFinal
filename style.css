@@ -554,6 +554,125 @@ th,td {
 }
 
 
+#aboutlay {
+    display:grid;
+    grid-template-columns: 25% 20% 20% 35%;
+    grid-template-rows: 25% 25% 25% ;
+    row-gap: 5em;
+    column-gap: 0.5em;
+    margin-left: 3em;
+    margin-right: 8em;
+    margin-bottom: 10em;
+}
+
+#aboutlay .aboutcard {
+    grid-column: 3/span 1;
+    grid-row: 1/span 3;
+    background-color: #7BAFD4;
+    border-radius: 10px;
+    border: 5px solid #AFDBF5;
+    box-shadow: 10px 10px #294F6B;
+    width:90%;
+}
+
+#profhero {
+    background-image: url(img/mylogo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:50%;
+    width:auto;
+    padding-left:10em;
+    padding-right: 5em;
+}
+
+.cardbio {
+    text-align: center;
+}
+
+.biosec {
+    grid-column: 1/span 2;
+    grid-row: 1/span 3;
+    background-color: #7BAFD4;
+    border-radius: 10px;
+    border: 5px solid #AFDBF5;
+    box-shadow: 10px 10px #294F6B;
+    padding:5em;
+    width:65%;
+}
+.future {
+    grid-column: 4/span 1;
+    grid-row: 1/span 3;
+    background-color: #7BAFD4;
+    border-radius: 10px;
+    border: 5px solid #AFDBF5;
+    box-shadow: 10px 10px #294F6B;
+    padding:5em;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-row: 100%;
+    height: 8em;
+    column-gap: 2em;
+    margin-left: 3em;
+}
+
+
+#photo1 {
+    background-image: url(img/men.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 200%;
+    grid-row: 1;
+    grid-column: 1/span 1;
+    border:5px solid #AFDBF5;
+    box-shadow: 10px 10px #294F6B;
+    border-radius: 10px;
+}
+
+#photo2 {
+    background-image: url(img/men.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 200%;
+    grid-row: 1;
+    grid-column: 2/span 1;
+    border:5px solid #AFDBF5;
+    box-shadow: 10px 10px #294F6B;
+    border-radius: 10px;
+}
+
+#photo3 {
+    background-image: url(img/men.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 200%;
+    grid-row: 1;
+    grid-column: 3/span 1;
+    border:5px solid #AFDBF5;
+    box-shadow: 10px 10px #294F6B;
+    border-radius: 10px;
+}
+
+#photo4 {
+    background-image: url(img/men.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 200%;
+    grid-row: 1;
+    grid-column: 4/span 1;
+    border:5px solid #AFDBF5;
+    box-shadow: 10px 10px #294F6B;
+    border-radius: 10px;
+}
+
+
+
 /* media */
 
 @media (max-width:600px){
