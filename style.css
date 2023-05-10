@@ -273,7 +273,7 @@ nav #herologo {
 #projects {
     display:grid;
     grid-template-columns: 20% 30% 30% 20%;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 33% 33% 33%;
     row-gap: 2.5em;
     column-gap: 2.5em;
     margin-left: 3.5em;
@@ -306,25 +306,28 @@ h4{
 .container {
     position: relative;
     height: 300px;
-    width: 600px;
+    width: 80%;
     left: calc(50% - 300px);
     display: flex;
     margin-bottom: 15em;
+    grid-column: 1/span 2;
+    grid-row: 1/span 2;
+    margin-left:2em;
   }
   
   .card {
     display: flex;
-    height: 400px;
-    width: 300px;
+    height: 20em;
+    width: 15em;
     color:#294F6B;
     background-color: #7BAFD4;
     border-radius: 10px;
-    box-shadow: -10px 5px #294F6B;
+    box-shadow: 10px 10px #294F6B;
     margin-left: -50px;
     transition: 0.4s ease-out;
     position: relative;
     left: 0px;
-    
+    border: 5px solid #AFDBF5
   }
   
   .card:not(:first-child) {
@@ -554,6 +557,17 @@ th,td {
     grid-row: 2/span 1; */
 }
 
+.repo {
+    background-color: #7BAFD4;
+    grid-column: 3/span 2;
+    grid-row: 2;
+    width:50%;
+}
+
+.repo img {
+    height:50%;
+    width:50%;
+}
 
 #aboutlay {
     display:grid;
@@ -959,7 +973,7 @@ nav #herologo {
 
 #projects {
     display:grid;
-    grid-template-columns: 20% 30% 30% 20%;
+    grid-template-columns: 10% 20% 20% 10%;
     grid-template-rows: 1fr 1fr 1fr;
     row-gap: 2.5em;
     column-gap: 2.5em;
@@ -1242,4 +1256,140 @@ th,td {
 
 
 /* media */
+}
+
+
+li{ /*style the li tag*/
+	list-style-type: none;
+	font-family: sans-serif;
+}
+
+.skills{ /*style the text*/
+	width: 500px;
+	margin: 2.5em auto;
+	color: #fff;
+    grid-column: 1/span 2;
+    grid-row: 2/span 1;
+    /* background-color: #5D8AA8; */
+    margin-bottom: 15em;
+
+}
+
+.skills li{ /*set margin of li*/
+	margin: 20px 0;
+}
+
+.skills ul {
+    background-color: #7BAFD4;
+    padding:2em;
+    border-radius: 10px;
+    border: 5px solid #AFDBF5;
+    box-shadow: 10px 10px #294F6B;
+    margin-left:3.75em;
+}
+
+.bar{ /*style the bar*/
+	background-color: #353b48;
+	display: block;
+	height: 2px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span{ /*style the span tag*/
+	height: 2px;
+	float: left;
+	background-color: #2187e7;
+}
+
+.html{ /*set skills and animation of html*/
+	width: 95%;
+	animation: html 2s;
+}
+
+.css{ /*set skills and animation of css*/
+	width: 90%;
+	animation: css 2s;
+}
+
+.javascript{ /*set skills and animation of javascript*/
+	width: 50%;
+	animation: javascript 2s;
+}
+
+.jquery{ /*set skills and animation of jquery*/
+	width: 30%;
+	animation: jquery 2s;
+}
+
+.py{ /*set skills and animation of jquery*/
+	width: 80%;
+	animation: py 2s;
+}
+
+.lua{ /*set skills and animation of jquery*/
+	width: 40%;
+	animation: lua 2s;
+}
+
+@keyframes html{ /*animate html skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 95%;
+	}
+}
+
+@keyframes css{ /*animate css skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 90%;
+	}
+}
+
+@keyframes javascript{ /*animate javascript skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 50%;
+	}
+}
+
+@keyframes jquery{ /*animate jquery skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 30%;
+	}
+}
+
+@keyframes py{ /*animate python skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 80%;
+	}
+}
+
+@keyframes lua{ /*animate lua skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 40%;
+	}
 }
