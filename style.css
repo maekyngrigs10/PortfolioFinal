@@ -309,12 +309,13 @@ h4{
     width: 600px;
     left: calc(50% - 300px);
     display: flex;
+    margin-bottom: 15em;
   }
   
   .card {
     display: flex;
-    height: 280px;
-    width: 200px;
+    height: 400px;
+    width: 300px;
     color:#294F6B;
     background-color: #7BAFD4;
     border-radius: 10px;
@@ -959,7 +960,7 @@ nav #herologo {
 #projects {
     display:grid;
     grid-template-columns: 20% 30% 30% 20%;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     row-gap: 2.5em;
     column-gap: 2.5em;
     margin-left: 3.5em;
