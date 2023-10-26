@@ -30,8 +30,9 @@ nav a {
 #hero {
     text-align: center;
     padding: 100px 0;
-    background: url('background.jpg') center/cover no-repeat;
+    /* background: url('background.jpg') center/cover no-repeat; */
     color: #fff;
+    background-color: #8d8d8d;
 }
 
 #about, #portfolio, #contact {
@@ -40,7 +41,7 @@ nav a {
 }
 
 .content {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -58,4 +59,73 @@ footer {
     padding: 20px;
     background-color: #333;
     color: #fff;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+/* start of about section */
+
+#about .content h3 {
+    padding-left:100px;
+}
+
+#about .content h2 {
+    padding-right:50px;
+}
+
+#about img {
+    padding-left: 300px;
+    border: 3px solid black;
+}
+
+#about .content {
+    display: flex;
+    flex-direction: row;
+    padding-left:0em 3em ;
+}
+
+/* end of about section */
+
+/* start of portfolio section */
+
+#portfolio .content .project{
+    display: flex;
+    flex-direction: column;
+}
+
+#portfolio .content .project #project1img{
+    display: flex;
+    flex-direction: row;
+}
+
+/* end of portfolio section */
+
+@media (max-width:600px){
+
+    #portfolio .content .project{
+        display: flex;
+        flex-direction: column;
+        width:400px;
+    }
+
+    #about .content {
+        display: flex;
+        flex-direction: column;
+        padding-left:0em 3em ;
+    }
+
+    #about .content h3 {
+        padding-left:50px;
+    }
+    
+    #about .content h2 {
+        padding-right:25px;
+    }
+    
+    #about img {
+        padding-left: 150px;
+        border: 3px solid black;
+    }
 }
