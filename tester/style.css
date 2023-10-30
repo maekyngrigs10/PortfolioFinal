@@ -68,7 +68,7 @@ h2 {
 /* start of about section */
 
 #about .content h3 {
-    padding-left:100px;
+    padding-left:10px;
 }
 
 #about .content h2 {
@@ -76,7 +76,7 @@ h2 {
 }
 
 #about img {
-    padding-left: 300px;
+    padding-left: 0;
     height:300px;
     border: 3px solid black;
 }
@@ -84,7 +84,7 @@ h2 {
 #about .content {
     display: flex;
     flex-direction: row;
-    padding-left:0em 3em ;
+    padding-left:0em 1em ;
 }
 
 /* end of about section */
@@ -124,7 +124,7 @@ h2 {
     }
 
     #about .content h3 {
-        padding-left:50px;
+        padding-left:10px;
     }
     
     #about .content h2 {
