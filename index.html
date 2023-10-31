@@ -1,46 +1,68 @@
 <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <title>Maekyn Grigsby Home</title>
-            <meta charset="utf-8">
-            <link rel="stylesheet" href="style.css">
-            <link href="static/bootstrap.min.css" rel="stylesheet" media="screen">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <meta name="description" content="Maekyn main page- Computer science student portfolio">
-        </head>
-        <body>
-            <nav>
-                <img src="img/mylogo.png" id="herologo" style="height:90%;width:auto;" alt="site logo">
-                <a href="https://instagram.com" target="_blank"><img src="img/insta.png" alt="instagram logo" style="height:80%;width:auto;" class="insta"></a>
-                <h4>Maekyn Grigsby</h4>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="contact.html">Contact Me</a></li>
-                    <li><a href="about.html">About Me</a></li>
-                    <li><a href="project.html">Projects</a></li>
-                </ul>
-            </nav>
-            <header>
-                <h1>Home Page</h1>
-            </header>
-            <main style="margin-bottom: 25em;">
-                <div class="twoone">
-                    <div class="left">
-                        <img src="img/men.png" class="picture" alt="name">
-                        <h2 id="out">OVERVIEW</h2>
-                        <p>Hi, I am Maekyn Grigsby. A computer science student at SICTC, and a junior at New Tech Institute. I am interested in web dev and cybersecurity. </p>
-                    </div>
-                    <div class="right">
-                        <img src="img/flower.png" class="flowerhero" alt="flower">
-                    </div>
-                    <div class="righttwo">
-                        <img src="img/flower.png" class="flowerhero" alt="flower">
-                    </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maekyn Grigsby's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1 style="font-size:50px;">Maekyn Grigsby</h1>
+        <p>Computer Science Student </p>
+    </section>
+
+    <section id="about">
+        <div class="content">
+            <h2>About Me</h2>
+            <img src="img/SICTC_Indiana_Only.png">
+            <h3>My name is Maekyn Grigsby. I am a computer science student at the Southern Indiana Career & Technical Center. I am looking to pursue a major in Computer Science and work as a developer after graduation. </h3>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="content">
+            <h2>Portfolio</h2>
+            <div class="project">
+                <img src="img/SICTC_Indiana_Only.png" style="width:15%;height:auto;" id="project1img" alt="Project 1">
+                <div id="projectsDiv">
+                <h3 style="padding-right:30px;">SICTC College & Career Fair Website</h3>
+                <p>I was in charge of updating and maintaining data. SICTC College & Career Fair website is a website that is used to be able to navigate and research different colleges and companies that are participating in the college and career fair. </p>
                 </div>
-            </main>
-            <footer>
-                <p><small>Copyright © Maekyn Grigsby 2023<br>
-                <a href="mailto:maekyngrigsby@gmail.com">maekyngrigsby@gmail.com</a></small></p>
-            </footer>
-        </body>
-    </html>
+                <a href="https://sictccs.github.io/CCF/" target="_blank"><button id="project1BTN" style="width:150px;height:35px;background-color: #545454;color:white;">Link to project</button></a>
+            </div>
+            <div class="project">
+                <img src="img/lunchboxWithText.png" style="width:15%;height:auto;" id="project1img" alt="Project 2">
+                <div id="projectsDiv">
+                <h3 style="padding-right:210px;">LunchBox Website</h3>
+                <p>I was in charge of mobile View and front-end design. LunchBox is a website to be able to update the public on the menu for the week of SICTC's local restaurant. </p>
+                </div>
+                <a href="https://sictccs.github.io/LunchBox/" target="_blank"><button id="project2BTN"  style="width:150px;height:35px;background-color: #545454;color:white;">Link to project</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="content">
+            <h2>Contact Me</h2>
+            <a href="https://github.com/maekyngrigs10/About-Me" target="_blank"><img src="img/github.png" style="height:100px;width:100px;"></a>
+            <a href="https://www.linkedin.com/in/maekyn-g-509081243/" target="_blank"><img src="img/linked.png" style="height:100px;width:100px;"></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Maekyn Grigsby</p><br>
+        <a href="mailto:maekynsgrigsby@gmail.com" style="text-decoration: none;color:white;">maekynsgrigsby@gmail.com</a>
+    </footer>
+</body>
+</html>
